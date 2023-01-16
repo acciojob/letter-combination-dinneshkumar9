@@ -31,7 +31,7 @@ function letterCombinations(input_digit) {
   
     backtrack('', input_digit);
     return combinations.sort();
-}
+
 }
 
 module.exports = letterCombinations;
